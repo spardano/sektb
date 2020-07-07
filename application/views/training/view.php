@@ -64,7 +64,7 @@ if ($_POST['JDTraining'] != 0 || $_POST['JIterasi'] != 0) {
                             $percentage = 10;
                             while ($percentage < 100) {
                                 $jumlahdata = round(($percentage / 100) * $jum[0]);
-                                echo '<option value= "' . $percentage . '">' . $percentage . '% (' . $jumlahdata . ' data)</option>';
+                                echo '<option value= "' . $percentage . '">' . $percentage . '% </option>';
                                 $percentage = $percentage + 10;
                             }
                             ?>
